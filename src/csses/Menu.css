@@ -1,0 +1,36 @@
+/* Picture.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of viewport height */
+    z-index: 1;
+}
+
+.image-container {
+    flex-wrap: wrap;
+    width: 800px; /* Adjust the width of the container */
+    height: 600px; /* Adjust the height of the container */
+    border: 5px solid rgba(0, 0, 0, 0.3); /* Semi-transparent black border */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(134, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.image-item {
+    /*flex: 1 0 10%; !* Each image occupies 30% of the container width*/
+    max-width: 100%; /* Ensure the image fits within the container */
+    max-height: 100%; /* Ensure the image fits within the container */
+    width: 250px;
+    height: 200px;
+}
+
+.image-item svg {
+    width: 100%; /* Make the SVG fill the container */
+    height: 100%; /* Make the SVG fill the container */
+}
