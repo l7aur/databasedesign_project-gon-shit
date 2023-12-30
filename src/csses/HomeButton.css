@@ -1,0 +1,9 @@
+.transparentButton {
+    background-color: transparent;
+    border: none;
+    color: #000; /* Change text color as needed */
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    /* Additional styles can be added based on your requirements */
+}

@@ -13,6 +13,7 @@ const Page1 = () => {
                 Your browser does not support the video tag.
             </video>
             <Menu/>
+            <footer></footer>
         </div>
 
         <footer></footer>

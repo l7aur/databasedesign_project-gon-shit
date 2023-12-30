@@ -8,12 +8,14 @@ import IncantationPage from "./IncantationPage";
 import WeaponPage from "./WeaponPage";
 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import HomeButton from "./HomeButton";
 
 function App() {
     return (
          <Router>
             <Routes>
                 <Route path="/" element={<Page1 />} />
+                <Route path="/" element={<HomeButton/>} />
                 <Route path="/BossPage" element={<BossPage />} />
                 <Route path="/WeaponPage" element={<WeaponPage />} />
                 <Route path="/ArmorPage" element={<ArmorPage />} />
